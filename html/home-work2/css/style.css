@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.header {
+    position: fixed;
+    border-bottom: 2px solid white;
+    background: black;
+    width: 100vw;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__link {
+    margin-right: 70px;
+    list-style: none;
+}
+
+.menu__link a {
+    padding: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.menu__link a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.3s ease;
+}
+
+/* Main styles */
+
+.main {
+    height: 100vh;
+    background: url("../image/main_background.jpg") no-repeat center top / cover;
+}
+
+
+/* ----------------------  */
+
+/* video style */
+
+.video {
+    border-top: 2px solid white;
+    height: 100vh;
+    background: url("https://vikna.if.ua/assets/gallery/2021/08/07/124878/1628318411_2af5025e0cdb77b66754.webp") no-repeat center top / cover;
+}
+
+.video__wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* */
+
+.us {
+    color: white;
+    background: url("../image/kalush-hotin-l2.jpg") no-repeat center top / cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.us__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.us__title{
+    font-size: 30px;
+    -webkit-text-stroke: 1px black;
+
+}
+.us__title2{
+    margin: 10px 0 10px 0;
+    font-size: 26px;
+    -webkit-text-stroke: 1px black;
+
+}
+.us__paragraph{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 25px;
+    width: 50vw;
+
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    background: black;
+}
+/* ---- */

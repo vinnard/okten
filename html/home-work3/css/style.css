@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "thewitcher", sans-serif;
+    overflow:
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* header */
+
+.header {
+    background: #400c0c;
+    height: 150px;
+
+}
+
+.header__wrapper {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    width: 220px;
+    height: 120px;
+}
+
+/* content */
+
+.content{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    background: url("../image/background1.jpg") no-repeat center top / cover;
+    height: 100vh;
+
+}
+.content__hero{
+
+    display: flex;
+}
+
+.content__paragraph{
+    margin-top: 20px;
+    text-align: center;
+    width: 400px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content__geralt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+

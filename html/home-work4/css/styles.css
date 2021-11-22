@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Homer Simpson Revised', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0;
+    background: #ced8e1;
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__menu i {
+    color: #635fd0;
+    font-size: 31px;
+    margin-right: 20px;
+}
+
+
+/* intro */
+
+.intro {
+    background: #102b3e;
+    width: 100vw;
+    padding: 100px 0;
+}
+
+.intro__wrapper {
+    position: relative;
+    color: #635fd0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro_block {
+    position: absolute;
+    display: flex;
+    top: 235px;
+}
+
+.intro_block div {
+    border-radius: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #6964e2;
+    height: 150px;
+}
+
+.intro__button {
+    background: #6964e2;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    border-style: none;
+    margin-bottom: 70px;
+}
+
+.intro__title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro__paragraph {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+
+/* main content */
+
+.main-content {
+    background: #ced8e1;
+    padding: 70px 0;
+}
+
+.main-content__title {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.block_width {
+    width: 170px;
+}
+
+.main-content__block {
+    width: 300px;
+    margin-top: 40px;
+}
+
+.main-content__block h2 {
+    margin-top: 20px;
+}
+
+.main-content__block-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-content__content {
+    padding: 50px 0;
+}
+
+.main-content__content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.main-content__content-block {
+    width: 50%;
+    display: flex;
+    margin: 15px 0 15px 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-content__content img {
+    width: 50%;
+}
+
+.main-content__content h2 {
+    display: flex;
+    justify-content: center;
+}
