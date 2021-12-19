@@ -48,21 +48,8 @@
 // }));
 //
 // - створити масив рандомних цілих числових значень (або згенерувати, за допомоги попередньої функції) . за допомоги map та колбеку перетворити всі об'єкти в масиві на стрінгові.
-// let a = [];
-//
-// function setString(arrClone) {
-//     arrClone.map(index => {
-//         console.log(index + '');
-//     })
-// }
-//
-// let randomNumber = (array, index) => {
-//     for (let i = 0; i < index; i++) {
-//         array[i] = Math.floor(Math.random() * 100);
-//     }
-//     setString(array);
-// }
-// console.log(randomNumber(a, 10));
+// let a = [12,52,524,6,3,90,589,75,75,34];
+// console.log(a.map(value => value + ''));
 //
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 // let nums = [11,21,3];
